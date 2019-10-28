@@ -1,0 +1,26 @@
+.line {
+  @media (max-width: 800px){
+    display: none;
+  }
+
+  &__tag {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 5px;
+    color: darkgray;
+    background-color: #fff;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    & + & {
+      margin-left: 8px;
+    }
+
+    &--active {
+      background-color: darkgray;
+      color: #fff;
+    }
+  }
+}

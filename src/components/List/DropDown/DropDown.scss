@@ -1,0 +1,7 @@
+.drop-down {
+  display: block;
+
+  @media (min-width: 801px){
+    display: none;
+  }
+}

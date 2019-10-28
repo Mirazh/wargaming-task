@@ -1,0 +1,10 @@
+.container {
+  max-width: 1300px;
+  margin: 20px auto 0;
+  padding: 36px;
+  background-image: url("assets/bg.png");
+
+  & > div + div {
+    margin-top: 20px;
+  }
+}
